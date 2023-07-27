@@ -1,6 +1,8 @@
 package assignments;
 
 import java.lang.reflect.Array;
+import java.util.HashMap;
+import java.util.Map;
 
 public class ContainsCommonItem {
 
@@ -14,6 +16,14 @@ public class ContainsCommonItem {
             }
         }
         return false;
+    }
+
+    private static Map<Character, Integer> arrayToHashMap(char[] array) {
+        Map<Character, Integer> hashMap = new HashMap<>();
+        for (char ch : array) {
+            hashMap.put(ch, hashMap.getOrDefault(ch, 0) + 1);
+        }
+        return hashMap;
     }
 
 }

@@ -12,6 +12,7 @@ public class Main {
 
         ContainsCommonItem callingContainsCommonItem = new ContainsCommonItem();
 
+        //looping through all the items and it's time complexity it O(n^2)
         boolean hasCommonItem = callingContainsCommonItem.containsCommonItem(hasCommonItemArray1, hasCommonItemArray2);
         boolean hasNoCommonItem = callingContainsCommonItem.containsCommonItem(hasNoCommonItemArray1, hasNoCommonItemArray2);
 
