@@ -28,6 +28,12 @@ public class Main {
         Map<Character, Integer> noCommonItemArray1 = callingContainsCommonItem.arrayToHashMap(hasNoCommonItemArray1);
         Map<Character, Integer> noCommonItemArray2 = callingContainsCommonItem.arrayToHashMap(hasNoCommonItemArray2);
 
+        boolean hasCommonItemHashMap = callingContainsCommonItem.checkingTwoArraysByHashMap(commonItemArray1, commonItemArray2);
+        boolean hasNoCommonItemHashMap =callingContainsCommonItem.checkingTwoArraysByHashMap(noCommonItemArray1, noCommonItemArray2);
+
+        System.out.println("Has Common Item so it is returning -> "+hasCommonItemHashMap);
+        System.out.println("Has No Common Item so it is returning -> "+hasNoCommonItemHashMap);
+
 
     }
 }

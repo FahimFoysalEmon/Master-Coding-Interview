@@ -26,4 +26,15 @@ public class ContainsCommonItem {
         return hashMap;
     }
 
+    public boolean checkingTwoArraysByHashMap(Map<Character, Integer> array1, Map<Character, Integer> array2) {
+
+        for (char key : array1.keySet()) {
+            if (array2.containsKey(key) && array2.get(key) > 0) {
+                return true;
+            }
+        }
+        return false;
+
+    }
+
 }
