@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
 
+        //Exercise 1
         //----------Contains Common Item Check-----------
 
 //        System.out.println("Starting the Contains-Common-Item");
@@ -40,6 +41,9 @@ public class Main {
 //        System.out.println("Has No Common Item so it is returning -> "+hasNoCommonItemHashMap);
 
 
+        //Exercise 2
+        //----------------GOOGLE INTERVIEW QUESTION (Sum of the two elements of the array would be equal to sum)-------------------
+        //[1,2,4,4] ----> sum = 8
 
 
     }
