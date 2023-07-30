@@ -1,5 +1,7 @@
 import assignments.ContainsCommonItem;
+import assignments.GoogleInterviewQuestion;
 
+import java.util.Arrays;
 import java.util.Map;
 
 public class Main {
@@ -45,6 +47,11 @@ public class Main {
         //----------------GOOGLE INTERVIEW QUESTION (Sum of the two elements of the array would be equal to sum)-------------------
         //[1,2,4,4] ----> sum = 8
 
+        GoogleInterviewQuestion googleInterviewQuestion = new GoogleInterviewQuestion();
+        int[] numArray = {1,2,4,4};
+        int sum = 8;
+
+        System.out.println(googleInterviewQuestion.sumOfTwoElementsFromAnArrayEqualToSum(numArray, sum));
 
     }
 }
