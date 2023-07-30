@@ -48,8 +48,8 @@ public class Main {
         //[1,2,4,4] ----> sum = 8
 
         GoogleInterviewQuestion googleInterviewQuestion = new GoogleInterviewQuestion();
-        int[] numArray = {1,2,4,4};
-        int sum = 8;
+        int[] numArray = {2,2,3,9};
+        int sum = 4;
 
         System.out.println(googleInterviewQuestion.sumOfTwoElementsFromAnArrayEqualToSum(numArray, sum));
 
