@@ -10,8 +10,7 @@ public class ReverseString {
             revCharArray[charArray.length - 1 - i] = charArray[i];
         }
 
-        String reverseStrValue = new String(revCharArray);
-        return reverseStrValue;
+        return new String(revCharArray);
     }
 
 
