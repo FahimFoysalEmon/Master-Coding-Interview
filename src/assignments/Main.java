@@ -1,3 +1,5 @@
+package assignments;
+
 import assignments.ContainsCommonItem;
 import assignments.GoogleInterviewQuestion;
 
@@ -6,7 +8,7 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-
+        System.out.println("Hello World From Assignment Main");
 
         //Exercise 1
         //----------Contains Common Item Check-----------
